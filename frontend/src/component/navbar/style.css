@@ -1,0 +1,19 @@
+
+/* .nav-link {
+ color: rgb(40, 54, 127);
+}
+.navbar-expand-lg {
+  color: rgb(40, 54, 127);
+ }
+ .navbar-nav {color: rgb(40, 54, 127);
+} */
+
+.navstyle:hover {
+
+    --bs-navbar-active-color: rgb(0, 150, 64);
+    border-bottom: 1px solid rgb(0, 150, 64);
+  }
+
+  
+    
+  

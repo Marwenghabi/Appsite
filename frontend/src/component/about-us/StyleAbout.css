@@ -1,0 +1,346 @@
+.separtionAbout{
+    content: "";
+    width: 85%;
+    height: 6px;
+    display: inline-block;
+    background: linear-gradient(to left,   rgb(0, 150, 64),rgb(255, 255, 255));
+    margin: 9px 10px; 
+  }
+  .separtionAbout1{
+    content: "";
+    width: 40%;
+    height: 6px;
+    display: inline-block;
+    background: linear-gradient(to left,   rgb(0, 150, 64),rgb(255, 255, 255));
+    margin: 9px 10px; 
+  }
+  .TextAbout {
+    font-size: 15;
+    color:  rgb(40, 54, 127);
+    padding: 0;
+    margin: 0 0 9px 0;
+  }
+  .espacetop{
+    padding-top: 175px;
+    font-size: 15px;
+  }
+  .btn-learn-more {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 20px;
+    transition: 0.3s;
+    line-height: 1;
+    color:#0b1869;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid rgb(0, 150, 64);
+    text-decoration: dashed;
+  
+  }
+  .btn-learn-more:hover {
+    color: #136740;
+}
+.img-about{
+  top: 120px;
+  left: 0px;
+  height: 600px;
+  width: 100%;
+  background: transparent  url("../../assets/Riyadh-Saudi-Arabia.png") 68% 15% no-repeat padding-box;
+  opacity: 1; 
+  border-radius: 65px;
+    
+}
+.rectangleAbout {
+  background: linear-gradient(to left, rgb(0 150 64 / 51%), rgb(0 150 64 / 28%));
+   border: 0px solid green;
+   padding: 50px;
+   margin: 20px;
+   border-radius: 170px;
+   margin-left: 0px;
+   
+ }
+.styleSection2{
+
+  color :white ;
+  margin-left: 50px;
+  font-size: 3.5rem ;
+}
+
+ .swiper-slide  {
+    opacity: 0.5;
+    transition: 0.3s;
+    width: 100px;
+  }
+ .swiper-slide img:hover {
+    opacity: 1;
+  }
+  .espaceAbout{
+    padding-top: 100px
+  }
+  .titleAbout{
+    /* font-size: 4.5rem; */
+    color:#0b1869;
+  }
+.img-fluid{
+  width: 30%;
+}
+.titleSection2{
+font-size : 3.5rem;
+}
+.imageSection2{
+  width :101% ;
+  height: 100%;
+}
+  @media (width:280px){
+    .espacetop{
+      padding-top: 50px;
+    }
+    .titleSection2{
+      font-size : 2.5rem;
+      }
+      .separtionAbout1{
+        width:40%
+      }
+      
+      .styleSection2{
+        font-size: 12px;
+         margin-left: 5px;
+      }
+      .rectangleAbout{
+        padding: 10%;
+      }
+  }
+  @media (width:320px){
+    .espacetop{
+      padding-top: 50px;
+    }
+    .titleSection2{
+      font-size : 3rem;
+      }
+      /* .titleAbout{
+        font-size: 3.5rem;
+      } */
+      .titleSection2{
+        font-size: 2rem;
+      }
+      .separtionAbout1{
+        width: 37%;
+      }
+      .styleSection2{
+        font-size:14px;
+        margin-left:1px;
+      }
+      .rectangleAbout{
+        padding: 10%;
+      }
+      .separtionAbout{
+        width: 57%;
+      }
+  }
+  @media (width:360px){
+    .titleSection2{
+      font-size : 3rem;
+      } 
+      /* .titleAbout{
+        font-size: 3.5rem;
+      } */
+      .espacetop{
+        padding-top: 40px;
+      }
+      .separtionAbout1{
+        width: 69%;
+      }
+      .titleSection2{
+        font-size: 2rem;
+      }
+  }
+  @media only screen and (max-width:410px)and (min-width:322px){
+    .titleSection2{
+      font-size: 2rem;
+    }
+    .separtionAbout1{
+      width: 32%;
+    }
+    .styleSection2{
+      font-size:14px;
+    }
+    .rectangleAbout{
+      padding: 28px;
+    }
+    .separtionAbout{
+      width: 50%;
+    }
+  }
+  @media  only screen and (max-width:530px)and (min-width:410px){
+    .titleSection2{
+      font-size : 3.5rem;
+      } 
+     .separtionAbout{
+      width: 57%;
+     }
+      .espacetop{
+        padding-top: 40px;
+      }
+      .separtionAbout1{
+        width: 30%;
+      }
+      .titleSection2{
+        font-size: 2rem;
+      }
+      .styleSection2{
+        font-size:16px;
+      }
+      .rectangleAbout{
+        padding: 10%;
+      }
+  }
+
+
+  @media (width:912px ){
+    .titleSection2{
+      font-size : 7rem;
+      } 
+      /* .titleAbout{
+        font-size: 6rem;
+      } */
+      .espacetop{
+        padding-top: 40px;
+      }
+      .separtionAbout1{
+        width: 21%;
+      }
+      .titleSection2{
+        font-size: 3rem;
+      }
+  }
+  @media (width:820px ){
+    .titleSection2{
+      font-size : 7rem;
+      } 
+      .separtionAbout{
+        width: 50%;
+      }
+      .espacetop{
+        padding-top: 40px;
+      }
+      .separtionAbout1{
+        width: 20%;
+      }
+      .titleSection2{
+        font-size: 2.5rem;
+      }
+      .styleSection2{
+        font-size:36px;
+        margin-left:1px;
+      }
+      .rectangleAbout{
+        padding: 30px;
+      }
+  }
+  @media (width:768px){
+    .titleSection2{
+      font-size : 7rem;
+      } 
+      .separtionAbout{
+        width: 50%;
+      }
+      .espacetop{
+        padding-top: 40px;
+      }
+      .separtionAbout1{
+        width: 20%;
+      }
+      .titleSection2{
+        font-size: 2.5rem;
+      }
+      .styleSection2{
+        font-size:36px;
+        margin-left:1px;
+      }
+      .rectangleAbout{
+        padding: 30px;
+      }
+  }
+
+
+@media(width:540px){
+  .separtionAbout1{
+    width:23%;
+  }
+  .separtionAbout{
+    width: 64%;
+  }
+  .styleSection2{
+    font-size:25px;
+    margin-left:1px;
+  }
+  .rectangleAbout{
+    padding: 30px;
+  }
+}
+  @media only screen and (max-width: 530px) and (min-width: 410px) {
+    .espacetop{
+      padding-top: 20px;
+    }
+    
+    .titleSection2{
+      font-size : 5rem;
+      }
+      .separtionAbout1{
+        width: 30%;
+      }
+      .titleSection2{
+        font-size: 2.5rem;
+      }
+  }
+
+  @media only screen and (max-width: 980px) and (min-width: 750px) {
+    .espacetop{
+      padding-top: 10px;
+    }
+    .separtionAbout{
+      width: 50%;
+    }
+    .titleSection2{
+      font-size: 2.5rem;
+    }
+    .styleSection2{
+      font-size:36px;
+      margin-left:1px;
+    }
+    .rectangleAbout{
+      padding: 30px;
+    }
+  }
+
+ @media only screen and (max-width: 1024px) and (min-width: 981px)   {
+    .espacetop{
+      padding-top: 156px;
+    }
+    /* .titleAbout{
+      font-size: 3.5rem;
+    } */
+    .titleSection2{
+      font-size: 3rem;
+    }
+    .styleSection2{
+      font-size: 3rem;
+    }
+    .titleSection2{
+      font-size: 3rem;
+    }
+    .separtionAbout1{
+      width:52%;
+    }
+  }
+
+  @media (width:1280px){
+    .separtionAbout1{
+      width: 46%;
+    }
+  }

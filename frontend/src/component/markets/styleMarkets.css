@@ -1,0 +1,107 @@
+.separtionMarkets{
+    content: "";
+    width: 25%;
+    height: 6px;
+    display: inline-block;
+    background: linear-gradient(to left,   rgb(0, 150, 64),rgb(255, 255, 255));
+    margin: 9px 10px; 
+  }
+
+  .espaceMarkets{
+    padding-top: 100px
+  }
+  .titleMarkets{
+    color:#0b1869;
+  }
+  
+  .imgMarkets{
+    width: 100%;
+  }
+  .marginClass{
+    margin-left: 20%;
+  }
+  @media (width:280px){
+
+    .separtionMarkets{
+      width:79%
+    }
+    .imgMarkets{
+      
+      height: 160px;
+    }
+  }
+@media (width:320px) {
+  
+  .separtionMarkets{
+    width:69%
+  }
+  .imgMarkets{
+    height: 170px;
+  }
+}
+
+@media only screen and (max-width: 408px) and (min-width: 322px) {
+ 
+  .separtionMarkets{
+    width:61%;
+  }
+
+}
+
+
+@media (width:540px) {
+  
+  .separtionMarkets{
+    width:47%;
+  }
+}
+@media (width:768px) {
+  
+  .separtionMarkets{
+    width:39%;
+  }
+}
+
+@media (width:820px) {
+  
+  .separtionMarkets{
+    width:39%;
+  }
+}
+@media (width:912px) {
+  
+  .separtionMarkets{
+    width:41%;
+  }
+}
+
+@media only screen and (max-width: 530px) and (min-width: 410px) {
+  .titleMarkets{
+    /* font-size: 30px; */
+  }
+  .separtionMarkets{
+    width:58%;
+  }
+
+}
+
+
+
+@media (width:1024px){
+  .separtionMarkets{
+    width:32%;
+  }
+  .imgMarkets{
+    
+    height: 160px;
+  }
+}
+@media (width:1280px){
+  .separtionMarkets{
+    width:29%;
+  }
+  .imgMarkets{
+    
+    height: 205px;
+  }
+}

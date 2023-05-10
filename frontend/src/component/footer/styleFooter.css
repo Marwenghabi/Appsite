@@ -1,0 +1,34 @@
+.contentFooter{
+    background: linear-gradient(to left,  rgb(0, 150, 64), rgb(40, 54, 127));
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    height: 100%;
+}
+
+ .p {
+    font-size: 15;   
+    padding: 0;
+    margin: 0 0 9px 0;
+  }
+ 
+.separtion{
+    
+    content: "";
+    width: 90%;
+    height: 1px;
+    display: inline-block;
+    background: #ffffff;
+    margin: 9px 10px;
+    margin-left: 38px;
+   
+
+  }
+
+  .separtionFooter {
+    width: 98%;
+    border-top-style: outset;
+    border-color: rgb(255, 255, 255);
+    margin: 9px 10px;
+  
+  }

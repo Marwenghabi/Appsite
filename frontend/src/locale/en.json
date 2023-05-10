@@ -1,0 +1,34 @@
+{
+    "home": "Home",
+    "about": "About us ",
+    "services":"Services",
+    "target-markets":"Target Markets",
+    "contact":"Contact",
+    "partners":"Partners",
+    "about-content":"Located in Saudi Arabia, INTIQAAL is a tech company speciallized in cloud services :",
+    "ab-content1" : "Assessment & Discovery Consulting",
+    "ab-content2" : "Managed DevOps/DevSecOps Services",
+    "ab-content3" : "Cloud Professional Services",
+    "ab-content4" : "Team-as-a-Service",
+    "mission-content":" At Intiqaal we aim at accelerating the progress of digital transformation within the government and private sector (2030 Vision of KSA) as well as providing digital transformation solutions and the best practices to achieve 2030 vision. Since the creation, Intiqaal has focused on developing the digital transformation capabilities across the Kingdom by providing the high skilled engineers in continuous integration and continuous delivery and reducing the time to Go-To-Market (GTM) plan for government and privates sectors.",
+    "cta-btn":"Let's discuss your next project",
+    "title2sectionAbout":"YOUR SMART DIGITAL TRANSITION",
+    "redhat-description":"Intiqaal Information Technology is the official RedHat Business Partner and Reseller in Saudi Arabia. Intiqaal offers the full range of Red Hat Products and consulting services",
+    "devops-content":"Increase the efficiency of your technology and business processes with Intiqaal's professional DevOps engineers"
+    ,"titleDevops":"Top DevOps Competences",
+    "ci-cd-content":" Intiqaal's DevOps expert talent pool can significantly accelerate the software delivery and deployment process of your business",
+    "devops-skills":"Top DevOps Competences",
+    "devops-skills-content":" Our team of DevOps engineers is characterized by high qualifications and experience in the areas of technology and process management.",
+    "devops-experience":"Large Experience",
+    "devops-experience-content":"  We plan to use our experience in supporting ambitious DevOps initiatives for many companies across a variety of industries."
+    ,"devops-prev-content":"The practice of DevOps encourages smoother, continuous communication, collaboration, integration, visibility, and transparency between application development teams (Dev) and their IT operations team (Ops) counterparts."
+    ,"devops-right1-content":" The faster development cycle ensures that the deployment of the product is accelerated while also ensuring faster correction of errors and bugs",
+    "devops-right2-content":" Following the continuous integration and continuous delivery approach of DevOps, the actual deployment of the software speeds up considerablys",
+    "devops-right3-content":" DevOps team can better serve the customers, incorporate the customer feedback in the future product iterations faster, leading to increased customer satisfaction",
+    "devops-right4-content":" The faster development cycle ensures that the deployment of the product is accelerated while also ensuring faster correction of errors and bugs",
+    "devops-right1": "The faster development cycle" ,
+    "devops-right2": "Continuous releases and deployments" ,
+    "devops-right3": " Improved customer experience and consumer satisfaction" ,
+    "devops-right4":"Early defect detection leading to quality software development"
+
+}

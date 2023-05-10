@@ -1,0 +1,124 @@
+.separtionPartners{
+    content: "";
+    width: 35%;
+    height: 6px;
+    display: inline-block;
+    background: linear-gradient(to left,   rgb(0, 150, 64),rgb(255, 255, 255));
+    margin: 9px 10px; 
+  }
+  .TextPartners {
+    font-size: 15;
+    color:  rgb(40, 54, 127);
+    padding: 0;
+    margin: 0 0 9px 0;
+  }
+  .titlePartners{
+    color:#0b1869;
+  }
+.testimonial-img{
+  width: 100%;
+}
+
+  @media (width:280px){
+    .separtionPartners{
+      width: 36%;
+    }
+    .testimonial-img{
+      width: 60%;
+    }
+    .btn-learn-more{
+      font-size:10px;
+    }
+  }
+  @media (width:320px){
+    .separtionPartners{
+      width: 32%;
+    }
+    .testimonial-img{
+      width: 60%;
+    }
+    .btn-learn-more{
+      font-size:10px;
+    }
+  }
+
+  @media only screen and (max-width:410px)and (min-width:322px){
+    .separtionPartners{
+      width: 28%;
+    }
+    .testimonial-img{
+      width: 45%;
+    }
+    .btn-learn-more{
+      font-size:10px;
+    }
+  } 
+
+  @media only screen and (max-width:510px)and (min-width:411px){
+    .separtionPartners{
+      width: 28%;
+    }
+    .testimonial-img{
+      width: 45%;
+    }
+    .btn-learn-more{
+      font-size:10px;
+    }
+  } 
+  @media (width:540px){
+    .separtionPartners{width: 21%;}
+    .testimonial-img{
+      width: 30%;
+    }
+  }
+ 
+@media (width:912px ){
+    .separtionPartners{
+  
+        width: 19%;
+      }
+      .testimonial-img{
+        width: 25%;
+      }
+      .btn-learn-more{
+        font-size:10px;
+      }
+}
+   
+
+@media (width:820px ){
+      .separtionPartners{
+    
+          width: 18%;
+        }
+        .testimonial-img{
+          width: 25%;
+        }
+        .btn-learn-more{
+          font-size:10px;
+        }
+}
+@media (width:768px ){
+        .separtionPartners{
+      
+            width: 18%;
+          }
+          .testimonial-img{
+            width: 25%;
+          }
+          .btn-learn-more{
+            font-size:10px;
+          }
+}  
+@media(width:1024px)
+{
+  .testimonial-img{
+    width: 80%;
+  }
+}
+@media(width:1280px)
+{
+  .testimonial-img{
+    width: 80%;
+  }
+}

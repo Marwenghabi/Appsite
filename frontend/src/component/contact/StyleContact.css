@@ -1,0 +1,138 @@
+.separtionContact{
+    content: "";
+    width: 74%;
+    height: 6px;
+    display: inline-block;
+    background: linear-gradient(to left,   rgb(0, 150, 64),rgb(255, 255, 255));
+    margin: 9px 10px;
+  
+  }
+  .TextType {
+    width: 74%;
+    color:  rgb(40, 54, 127);
+    padding: 0;
+    margin: 0 0 9px 0; 
+  }
+  .espaceContact{
+    padding-top: 100px
+  }
+
+  .espaceContactPart2{
+    padding-top: 180px;
+  }
+  .titleContact{
+    font-size: 4rem;
+    color:#0b1869;
+  }
+
+  .btn-send{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 5px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 20px;
+    transition: 0.3s;
+    line-height: 1;
+    color:#0b1869; 
+    background-color: #fff; 
+    border: 1px solid #0b1869;
+
+  }
+  .btn-send:hover{
+    background-color:#0b1869;
+    color:#fff;
+
+  }
+
+  @media only screen and (max-width: 349px) and (min-width: 200px) {
+    /* .espaceContact{
+      padding-top: 60px;
+    } */
+    .titleContact{
+      font-size: 2rem;
+    }
+    .separtionContact{
+      width: 60%;
+    }
+    .TextType{
+      font-size: 14px;
+    }
+    
+  }
+
+
+
+
+  @media only screen and (max-width: 400px) and (min-width: 350px) {
+    /* .espaceContact{
+      padding-top: 10px;
+    } */
+    .titleContact{
+      font-size: 2.5rem;
+    }
+    .separtionContact{
+      width: 55%;
+    }
+    
+  }
+
+
+
+  @media only screen and (max-width: 539px) and (min-width: 400px) {
+    /* .espaceContact{
+      padding-top: 10px;
+    } */
+    .titleContact{
+      font-size: 3rem;
+    }
+    .separtionContact{
+      width: 60%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 750px) and (min-width: 540px) {
+    /* .espaceContact{
+      padding-top: 10px;
+    } */
+    .titleContact{
+      font-size: 3rem;
+    }
+    .separtionContact{
+      width: 45%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 980px) and (min-width: 750px) {
+    /* .espaceContact{
+      padding-top: 30px;
+    } */
+    .titleContact{
+      font-size: 3.5rem;
+    }
+    .separtionContact{
+      width: 40%;
+    }
+
+  }
+
+ @media only screen and (max-width: 1024px) and (min-width: 981px)   {
+    .espacetop{
+      padding-top: 156px;
+    }
+    .titleContact{
+      font-size: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 1290px) and (min-width: 1025px)   {
+    .espacetop{
+      padding-top: 156px;
+    }
+    .titleContact{
+      font-size: 3.5rem;
+    }
+  }
