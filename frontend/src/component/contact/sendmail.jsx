@@ -43,38 +43,7 @@ class SendMail extends Component {
     });
   };
 
-  // handleValidation = () => {
-  //   const { email } = this.state;
-  //   let errors = {};
-  //   let formIsValid = true;
-
-  //   // Validate 'from' field
-  //   if (!email.from) {
-  //     formIsValid = false;
-  //     errors['from'] = 'From field is required';
-  //   }
-
-  //   // Validate 'to' field
-  //   if (!email.to) {
-  //     formIsValid = false;
-  //     errors['to'] = 'To field is required';
-  //   }
-
-  //   // Validate 'subject' field
-  //   if (!email.subject) {
-  //     formIsValid = false;
-  //     errors['subject'] = 'Subject field is required';
-  //   }
-
-  //   // Validate 'message' field
-  //   if (!email.message) {
-  //     formIsValid = false;
-  //     errors['message'] = 'Message field is required';
-  //   }
-
-  //   this.setState({ errors });
-  //   return formIsValid;
-  // }
+  
 
   render() {
     const { email, errors } = this.state;

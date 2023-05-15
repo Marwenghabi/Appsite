@@ -73,7 +73,7 @@ class Partners extends React.Component {
             <div className="col-lg-3"></div>
             <div className="col-lg-6">
               <a href="#" onClick={() => { window.open('https://podyam.com/', '_blank'); }
-                  } className="btn-learn-more" data-i18n-key="cta-btn">RedHat Business Partner</a>
+                  } className="btn-learn-more" data-i18n-key="cta-btn">Podyam Business Partner</a>
             </div>
           </div>
           <div style={{ paddingTop: "15px" }}></div>

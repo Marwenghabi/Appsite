@@ -91,10 +91,10 @@ class Services extends React.Component {
 
     handleMouseEnter2() {
         this.setState({
-            isHovered1: true,
-            heightcard2: "350px",
+            isHovered2: true,
+            heightcard2: "550px",
             marginLeft2: "11px",
-            marginTop2: "300px"
+            marginTop2: "500px"
 
         });
     }
@@ -156,9 +156,9 @@ class Services extends React.Component {
                 <div class="container" style={{ backgroundColor: "#084298" }}>
                     <div style={{ marginTop: "30px", padding: "15px" }}></div>
                     <div class="row" >
-                        <div class="col-md-6 col-lg-6" style={{zIndex: "2"}} >
+                        <div class="col-md-6 col-lg-6"  >
 
-                            <div class="card styleCard" style={{ height: this.state.heightcard, zIndex: "2" }}>
+                            <div class="card styleCard" style={{ height: this.state.heightcard, zIndex: "2" , borderRadius:"36px" }}>
                                 <div onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
 
                                     <div class="row" >
@@ -210,8 +210,8 @@ class Services extends React.Component {
                         </div>
 
 
-                        <div class="col-md-6 col-lg-6"  style={{zIndex: "2"}} >
-                            <div class="card styleCard" style={{ height: this.state.heightcard1, zIndex: "2" }}>
+                        <div class="col-md-6 col-lg-6"   >
+                            <div class="card styleCard" style={{ height: this.state.heightcard1, zIndex: "2", borderRadius:"36px" }}>
                                 <div onMouseEnter={this.handleMouseEnter1} onMouseLeave={this.handleMouseLeave1}>
 
                                     <div>
@@ -274,8 +274,8 @@ class Services extends React.Component {
 
 <div className="row">
 
-                        <div class="col-md-6 col-lg-6" style={{ marginTop: "20px" ,zIndex:"1" }}>
-                            <div class="card styleCard" style={{ height: this.state.heightcard2, zIndex: "1" }}>
+                        <div class="col-md-6 col-lg-6" style={{ marginTop: "20px" }}>
+                            <div class="card styleCard" style={{ height: this.state.heightcard2, zIndex: "4" , borderRadius:"36px"}}>
                                 <div onMouseEnter={this.handleMouseEnter2} onMouseLeave={this.handleMouseLeave2}>
 
                                     <div>
@@ -298,7 +298,7 @@ class Services extends React.Component {
                                                         <div>
                                                             <p>Providing world-class certified DevOps engineers to improve operations and take care of cloud infrastructure from A to Z. </p>
                                                             <p>CI / CD / Continuous Integration and Continuous Delivery Care, installation of systems and management of various ports and paths. </p>
-                                                            <p>CI / CD / Continuous Integration and Continuous</p>
+                                                           
                                                         </div>
                                                     )}
 
@@ -334,8 +334,8 @@ class Services extends React.Component {
 
 
 
-                        <div class="col-md-6 col-lg-6" style={{ marginTop: "20px",zIndex:"1" }}>
-                            <div class="card styleCard " style={{ height: this.state.heightcard3, zIndex: "1" }}>
+                        <div class="col-md-6 col-lg-6" style={{ marginTop: "20px" }}>
+                            <div class="card styleCard " style={{ height: this.state.heightcard3, zIndex: "4" , borderRadius:"36px"}}>
                                 <div onMouseEnter={this.handleMouseEnter3} onMouseLeave={this.handleMouseLeave3}>
 
                                     <div>

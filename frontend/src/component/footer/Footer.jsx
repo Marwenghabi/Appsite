@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
@@ -62,17 +63,17 @@ class Footer extends React.Component {
                                 <div style={{ padding: '10px' }} >
                                     <div className='row'>
                                         <div className='col-lg-3' style={{ marginLeft: "5px" }}>
-                                            <p style={{ fontSize: '12px' }}>Home </p>
-                                            <p style={{ fontSize: '12px' }}>Contact </p>
+                                        <Link to="/" style={{ fontSize: '13px' , color:"white"  ,textDecoration: 'none'}}>Home </Link>
+                                            <Link to="/Contact" style={{ fontSize: '13px' , color:"white"  ,textDecoration: 'none'}}>Contact</Link>
                                         </div>
                                         <div className='col' style={{ marginLeft: "5px" }}>
-                                            <p style={{ fontSize: '12px' }}>About </p>
-                                            <p style={{ fontSize: '12px' }}>Devops </p>
+                                        <Link  to="/About" style={{ fontSize: '13px' , color:"white"  ,textDecoration: 'none'}}>About </Link >
+                                           <br></br> <Link  to="/Devops" style={{ fontSize: '13px' , color:"white"  ,textDecoration: 'none'}}>Devops </Link >
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className='separtionFooter'></div>
+                            <div className='separtionFooter'></div> 
                             <div className='container'>
                                 <div className='row'>
                                     <div className='col-lg-3'>

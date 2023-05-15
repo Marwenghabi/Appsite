@@ -1,6 +1,6 @@
 .separtionContact{
     content: "";
-    width: 74%;
+    width: 46%;
     height: 6px;
     display: inline-block;
     background: linear-gradient(to left,   rgb(0, 150, 64),rgb(255, 255, 255));
@@ -21,7 +21,7 @@
     padding-top: 180px;
   }
   .titleContact{
-    font-size: 4rem;
+    /* font-size: 4rem; */
     color:#0b1869;
   }
 
@@ -50,11 +50,11 @@
     /* .espaceContact{
       padding-top: 60px;
     } */
-    .titleContact{
+    /* .titleContact{
       font-size: 2rem;
-    }
+    } */
     .separtionContact{
-      width: 60%;
+      width: 48%;
     }
     .TextType{
       font-size: 14px;
@@ -69,11 +69,11 @@
     /* .espaceContact{
       padding-top: 10px;
     } */
-    .titleContact{
+    /* .titleContact{
       font-size: 2.5rem;
-    }
+    } */
     .separtionContact{
-      width: 55%;
+      width: 37%;
     }
     
   }
@@ -84,11 +84,11 @@
     /* .espaceContact{
       padding-top: 10px;
     } */
-    .titleContact{
+    /* .titleContact{
       font-size: 3rem;
-    }
+    } */
     .separtionContact{
-      width: 60%;
+      width: 35%;
     }
     
   }
@@ -97,11 +97,11 @@
     /* .espaceContact{
       padding-top: 10px;
     } */
-    .titleContact{
+    /* .titleContact{
       font-size: 3rem;
-    }
+    } */
     .separtionContact{
-      width: 45%;
+      width: 28%;
     }
     
   }
@@ -110,11 +110,11 @@
     /* .espaceContact{
       padding-top: 30px;
     } */
-    .titleContact{
+    /* .titleContact{
       font-size: 3.5rem;
-    }
+    } */
     .separtionContact{
-      width: 40%;
+      width: 24%;
     }
 
   }
@@ -123,16 +123,22 @@
     .espacetop{
       padding-top: 156px;
     }
-    .titleContact{
-      font-size: 3rem;
+    .separtionContact{
+      width: 60%;
     }
+    /* .titleContact{
+      font-size: 3rem;
+    } */
   }
 
   @media only screen and (max-width: 1290px) and (min-width: 1025px)   {
     .espacetop{
       padding-top: 156px;
     }
-    .titleContact{
-      font-size: 3.5rem;
+    .separtionContact{
+      width: 53%;
     }
+    /* .titleContact{
+      font-size: 3.5rem;
+    } */
   }

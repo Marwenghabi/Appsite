@@ -21,7 +21,7 @@ class DevOps extends React.Component {
                     <div className="row">
                     <div class="col-lg-7 ">
                     <div class="section-title" data-aos="zoom-out">
-                        <p className="titleDevops" > {t("titleDevops")}</p>
+                        <h1 className="titleDevops" > {t("titleDevops")}</h1>
                     </div>
                     <div className="separtionDevops"></div>
                     </div></div>
