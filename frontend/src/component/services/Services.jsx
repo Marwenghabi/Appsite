@@ -60,6 +60,13 @@ class Services extends React.Component {
             marginLeft: "11px",
             marginTop: "470px"
         });
+
+        if(window.innerWidth < 412 && window.innerWidth> 311){
+            this.setState({
+               
+                marginTop: "-111px"
+            });
+        }
     }
     handleMouseLeave() {
         this.setState({
@@ -68,6 +75,12 @@ class Services extends React.Component {
             marginLeft: "11px",
             marginTop: "195px"
         });
+        if(window.innerWidth < 412 && window.innerWidth> 311){
+            this.setState({
+            
+            marginTop: "-87px"
+            });
+        }
     }
 
     handleMouseEnter1() {
@@ -158,7 +171,7 @@ class Services extends React.Component {
                     <div class="row" >
                         <div class="col-md-6 col-lg-6"  >
 
-                            <div class="card styleCard" style={{ height: this.state.heightcard, zIndex: "2" , borderRadius:"36px" }}>
+                            <div class="card styleCard" style={{ height: this.state.heightcard, zIndex: "1", borderRadius: "36px" }}>
                                 <div onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
 
                                     <div class="row" >
@@ -211,7 +224,7 @@ class Services extends React.Component {
 
 
                         <div class="col-md-6 col-lg-6"   >
-                            <div class="card styleCard" style={{ height: this.state.heightcard1, zIndex: "2", borderRadius:"36px" }}>
+                            <div class="card styleCard" style={{ height: this.state.heightcard1, zIndex: "1", borderRadius: "36px" }}>
                                 <div onMouseEnter={this.handleMouseEnter1} onMouseLeave={this.handleMouseLeave1}>
 
                                     <div>
@@ -264,18 +277,10 @@ class Services extends React.Component {
 
 
 
-</div>
 
-
-
-
-
-
-
-<div className="row">
 
                         <div class="col-md-6 col-lg-6" style={{ marginTop: "20px" }}>
-                            <div class="card styleCard" style={{ height: this.state.heightcard2, zIndex: "4" , borderRadius:"36px"}}>
+                            <div class="card styleCard" style={{ height: this.state.heightcard2, zIndex: "2", borderRadius: "36px" }}>
                                 <div onMouseEnter={this.handleMouseEnter2} onMouseLeave={this.handleMouseLeave2}>
 
                                     <div>
@@ -284,7 +289,7 @@ class Services extends React.Component {
                                                 <img src={managedimag} className='imagmanagend' />
                                             </div>
                                             <div className="col-lg-8">
-                                                <h3 className='titleSev'>  Managed DevOps Service </h3>
+                                                <h3 className='titleSevManaged'>  Managed DevOps Service </h3>
                                                 <div class="card-body p">
                                                     {this.state.isHovered2 ? (
                                                         <div>
@@ -294,11 +299,11 @@ class Services extends React.Component {
                                                             <p>Providing world-class certified DevOps engineers to improve operations and take care of cloud infrastructure from A to Z.</p>
                                                             <p>CI / CD / Continuous Integration and Continuous Delivery Care, installation of systems and management of various ports and paths.</p>
                                                         </div>
-                                                        ) : (
+                                                    ) : (
                                                         <div>
                                                             <p>Providing world-class certified DevOps engineers to improve operations and take care of cloud infrastructure from A to Z. </p>
                                                             <p>CI / CD / Continuous Integration and Continuous Delivery Care, installation of systems and management of various ports and paths. </p>
-                                                           
+
                                                         </div>
                                                     )}
 
@@ -335,7 +340,7 @@ class Services extends React.Component {
 
 
                         <div class="col-md-6 col-lg-6" style={{ marginTop: "20px" }}>
-                            <div class="card styleCard " style={{ height: this.state.heightcard3, zIndex: "4" , borderRadius:"36px"}}>
+                            <div class="card styleCard " style={{ height: this.state.heightcard3, zIndex: "2", borderRadius: "36px" }}>
                                 <div onMouseEnter={this.handleMouseEnter3} onMouseLeave={this.handleMouseLeave3}>
 
                                     <div>
@@ -344,7 +349,7 @@ class Services extends React.Component {
                                                 <img src={trainingimag} className='imagtraining' />
                                             </div>
                                             <div className="col-lg-8">
-                                                <h3 className='titleSev'> Training and Certification</h3>
+                                                <h3 className='titleSevTraining'> Training and Certification</h3>
                                                 <div class="card-body p ">
                                                     {this.state.isHovered3 ? (
                                                         <div>

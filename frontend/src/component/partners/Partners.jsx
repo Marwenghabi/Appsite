@@ -9,7 +9,7 @@ class Partners extends React.Component {
     return (
       <div>
         <Navbar />
-        <div className="container">
+        {/* <div className="container">
 
           <div class="row content" data-aos="fade-up">
             <div className="col-lg-4">
@@ -42,7 +42,7 @@ class Partners extends React.Component {
             </div>
           </div>
           <div style={{ paddingTop: "15px" }}></div>
-        </div>
+        </div> */}
         <div style={{marginTop:"30px"}}></div>
         <div className="container">
 

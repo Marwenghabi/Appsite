@@ -125,7 +125,13 @@
 .titleSev {
   color: #009640;
   padding: 25px;
+
 }
+.titleSevManaged ,.titleSevTraining{
+  color: #009640;
+  padding: 25px;
+}
+
 
 .imagteam {
   height: 80px;
@@ -161,25 +167,25 @@
 
 @media (width:1024px) {
 
-        .CICD {
-          font-size: 24px;
-        }
+  .CICD {
+    font-size: 24px;
+  }
 
-        .titleTopDevops {
-          font-size: 24px;
-        }
+  .titleTopDevops {
+    font-size: 24px;
+  }
 
-        .titleExperience {
-          font-size: 24px;
-        }
+  .titleExperience {
+    font-size: 24px;
+  }
 
-        .separtionDevops {
-          width: 81%;
-        }
+  .separtionDevops {
+    width: 81%;
+  }
 
-        .separtionService {
-          width: 60%;
-        }
+  .separtionService {
+    width: 60%;
+  }
 
 }
 
@@ -202,7 +208,8 @@
   .separtionService {
     width: 17%;
   }
-  .separtionDevops{
+
+  .separtionDevops {
     width: 58%;
   }
 
@@ -212,7 +219,8 @@
   .separtionService {
     width: 17%;
   }
-  .separtionDevops{
+
+  .separtionDevops {
     width: 56%;
   }
 
@@ -248,9 +256,43 @@
 
 @media only screen and (max-width: 411px) and (min-width: 321px) {
 
-  /* .titleDevops{
-    font-size: 27px;
-  } */
+  .titleSev {
+    margin-left: 25%;
+    margin-top: -57px;
+    padding: 0;
+    font-size: 20px;
+  }
+  .titleSevManaged{
+    margin-left: 25%;
+    margin-top: -65px;
+    padding: 0;
+    font-size: 20px;
+  }
+  .titleSevTraining{
+    margin-top: -122px;
+    margin-left: 68px;
+    font-size: 20px;
+  }
+  .circle{
+    margin-left: 91%;
+  }
+  .imagteam {
+    height: 63px;
+  }
+
+  .imagmanagend {
+    width: 19%;
+    height: 57%;
+  }
+
+  .imagcloud {
+    height: 59px;
+  }
+
+  .imagtraining {
+    height: 48%;
+  }
+
   .separtionService {
     width: 25%;
   }
@@ -281,9 +323,10 @@
 
 @media (width :540px) {
 
-  .separtionDevops{
+  .separtionDevops {
     width: 68%;
   }
+
   .titleTopDevops {
     margin-left: 10%;
   }

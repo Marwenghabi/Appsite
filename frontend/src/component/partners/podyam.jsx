@@ -13,7 +13,7 @@ class Podyam extends React.Component {
 
           <div class="row content" data-aos="fade-up">
             <div className="col-lg-4">
-              <div style={{ paddingTop: "120px" }}></div>
+              <div style={{ paddingTop: "130px" }}></div>
               <h1 className="titlePartners"> PODYAM</h1>
               <div className="separtionPartners"></div>
             </div>
@@ -41,7 +41,7 @@ class Podyam extends React.Component {
                   } className="btn-learn-more" data-i18n-key="cta-btn">Podyam Business Partner</a>
             </div>
           </div>
-          <div style={{ paddingTop: "40px" }}></div>
+          <div style={{ paddingTop: "100px" }}></div>
         </div>  
         <Footer />    
       </div>

@@ -74,17 +74,16 @@ class NavBar extends React.Component {
               <Nav.Link as={Link} to="/About" className="navstyle" style={{ color: "   rgb(40, 54, 127)" }}>{t('about')}</Nav.Link>
               <Nav.Link as={Link} to="/Services" className="navstyle" style={{ color: "   rgb(40, 54, 127)" }}>{t('services')}</Nav.Link>
               <Nav.Link as={Link} to="/Markets" className="navstyle" style={{ color: "  rgb(40, 54, 127)" }}>{t('target-markets')}</Nav.Link>
-              <NavDropdown  href="Partners"  title={t("partners")} style={{color :"rgb(40, 54, 127)"}} >
-                <NavDropdown.Item href="Redhat" className="navstyle" style={{color :"  rgb(40, 54, 127)"}}>{t('Redhat')}</NavDropdown.Item>
-                <NavDropdown.Item href="Podyam" className="navstyle" style={{color :"  rgb(40, 54, 127)"}}>{t('Podyam')}</NavDropdown.Item>       
+              <NavDropdown    title={t("partners")}  className="navstyle" style={{  color: '#0d6efd' }} >
+                <NavDropdown.Item as={Link} to="Redhat" className="navstyle" style={{color :"  rgb(40, 54, 127)"}}>{t('Redhat')}</NavDropdown.Item>
+                <NavDropdown.Item  as={Link}to="Podyam" className="navstyle" style={{color :"  rgb(40, 54, 127)"}}>{t('Podyam')}</NavDropdown.Item>       
               </NavDropdown> 
               <Nav.Link as={Link} to="/Contact" className="navstyle" style={{ color: " rgb(40, 54, 127)" }}>{t('contact')}
               </Nav.Link>
               <Nav.Link href="#" className="navstyle"
                 // onClick={this.handleClick} style={{ color: "  rgb(40, 54, 127)" }} 
                 >
-                {/* {this.state.text} */}
-                EN
+                {/* {this.state.text} */} EN
               </Nav.Link>
             </Nav>
 

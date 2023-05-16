@@ -13,12 +13,19 @@
   .titleMarkets{
     color:#0b1869;
   }
-  
+  .img-target{
+    width: 90%;
+  }
   .imgMarkets{
-    width: 100%;
+    width: 90%;
   }
   .marginClass{
-    margin-left: 20%;
+    /* margin-left: 20%; */
+  }
+  .stylecardMarkets{
+  width: 80%;
+  height: 95%;
+  border-radius: 2.25rem;
   }
   @media (width:280px){
 
@@ -93,7 +100,10 @@
   }
   .imgMarkets{
     
-    height: 160px;
+    /* height: 160px; */
+  }
+  .market-item1{
+    font-size: 14px;
   }
 }
 @media (width:1280px){
@@ -102,6 +112,6 @@
   }
   .imgMarkets{
     
-    height: 205px;
+    /* height: 205px; */
   }
 }

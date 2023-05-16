@@ -39,7 +39,7 @@ class Home extends React.Component {
             <Services/>
             <DevOps/>
             <Markets/>
-            <div className="container">
+            {/* <div className="container">
 
           <div class="row content" data-aos="fade-up">
             <div className="col-lg-4">
@@ -72,7 +72,7 @@ class Home extends React.Component {
             </div>
           </div>
           <div style={{ paddingTop: "15px" }}></div>
-        </div>
+        </div> */}
         <div style={{marginTop:"30px"}}></div>
         <div className="container">
 
@@ -103,7 +103,7 @@ class Home extends React.Component {
             <div className="col-lg-3"></div>
             <div className="col-lg-6">
               <a href="#"   onClick={() => { window.open('https://podyam.com/', '_blank'); }
-                } className="btn-learn-more" data-i18n-key="cta-btn">RedHat Business Partner</a>
+                } className="btn-learn-more" data-i18n-key="cta-btn">Podyam Business Partner</a>
             </div>
           </div>
           <div style={{ paddingTop: "15px" }}></div>

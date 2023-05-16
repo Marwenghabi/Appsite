@@ -27,17 +27,17 @@ class Markets extends React.Component {
 
                
                    <div style={{color :"#28367f"}}> Top potential markets for which our services are oriented
-                    </div><div className="container" style={{ backgroundColor: '#009640' , marginTop:"10px" ,padding:"40px" }}>
+                    </div><div className="container" style={{ backgroundColor: '#009640' ,borderRadius:"30px", marginTop:"15px" ,padding:"20px" }}>
                     <div className="row"  >
 
                         <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
                            
-                            <div class="card" >                           
+                            <div class="card stylecardMarkets"  style={{borderRadius:"30px"}} >                            
                                 <div class="card-body">
                                     <div className="member-img">
-                                    <img src={Govimag} className="img-fluid" alt="" style={{    width: "auto"}}/>
-                                    <div className="member-info">
-                                    <h6 data-i18n-key="market-item1" style={{color :"#28367f"}} className="marginClass">Government</h6>
+                                    <img src={Govimag} className="img-target" alt="" />
+                                    <div className="member-info" style={{textAlign: "center"}}>
+                                    <h6 className="market-item1" style={{color :"#28367f"}} >Government</h6>
                                 </div>
                                 </div>
                                 </div>
@@ -47,12 +47,12 @@ class Markets extends React.Component {
 
                         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style={{marginTop: "5px"}}>
                            
-                            <div class="card" >                           
+                            <div class="card stylecardMarkets" style={{borderRadius:"30px"}} >                           
                                 <div class="card-body">
                                     <div className="member-img">
-                                    <img src={Barimag} className="img-fluid" alt="" style={{ width: "auto"}}/>
-                                    <div class="member-info">
-                                    <h6 data-i18n-key="market-item2"  style={{color :"#28367f"}} className="marginClass">Oil & Gas sector</h6>
+                                    <img src={Barimag} className="img-target"/>
+                                    <div class="member-info" style={{textAlign: "center"}}>
+                                    <h6 className="market-item1"  style={{color :"#28367f"}} >Oil & Gas sector</h6>
                                 </div>
                                 </div>
                                 </div>
@@ -61,12 +61,12 @@ class Markets extends React.Component {
 
                         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style={{marginTop: "5px"}}>
                            
-                             <div class="card" >                           
+                             <div class="card stylecardMarkets"  style={{borderRadius:"30px"}} >                        
                                 <div class="card-body">
                                     <div className="member-img">
-                                    <img src={Bimag} class="img-fluid" alt=""  style={{ width: "auto"}}/>
-                                    <div class="member-info">
-                                    <h6 data-i18n-key="market-item3"  style={{color :"#28367f"}} className="marginClass">Financial Institutions</h6>
+                                    <img src={Bimag} className="img-target"/>
+                                    <div class="member-info" style={{textAlign: "center"}}>
+                                    <h6 className="market-item1"  style={{color :"#28367f"}}>Financial Institutions</h6>
                                 </div>
                                 </div>
                                 </div>
@@ -75,10 +75,11 @@ class Markets extends React.Component {
 
                         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style={{marginTop: "5px"}}>
                             
-                              <div class="card" >                           
+                              <div class="card stylecardMarkets" style={{borderRadius:"30px"}} >                      
                                 <div class="card-body">
                                     <img src={Sevimag}  className="imgMarkets" />
-                                    <h6 data-i18n-key="market-item4"  style={{color :"#28367f"}} className="marginClass"> SMB and Software companies</h6> 
+                                    <div class="member-info" style={{textAlign: "center"}}>
+                                    <h6 className="market-item1" style={{color :"#28367f"}} > SMB and Software companies</h6> </div>
                                 </div>
                             </div>
                         </div>

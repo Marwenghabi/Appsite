@@ -1,6 +1,6 @@
 .separtionPartners{
     content: "";
-    width: 35%;
+    width: 37%;
     height: 6px;
     display: inline-block;
     background: linear-gradient(to left,   rgb(0, 150, 64),rgb(255, 255, 255));
@@ -16,16 +16,16 @@
     color:#0b1869;
   }
 .testimonial-img{
-  width: 100%;
+  width: 50%;
 }
 
   @media (width:280px){
     .separtionPartners{
       width: 36%;
     }
-    .testimonial-img{
+    /* .testimonial-img{
       width: 60%;
-    }
+    } */
     .btn-learn-more{
       font-size:10px;
     }
@@ -34,9 +34,9 @@
     .separtionPartners{
       width: 32%;
     }
-    .testimonial-img{
+    /* .testimonial-img{
       width: 60%;
-    }
+    } */
     .btn-learn-more{
       font-size:10px;
     }
@@ -112,13 +112,13 @@
 }  
 @media(width:1024px)
 {
-  .testimonial-img{
+  /* .testimonial-img{
     width: 80%;
-  }
+  } */
 }
 @media(width:1280px)
 {
-  .testimonial-img{
+  /* .testimonial-img{
     width: 80%;
-  }
+  } */
 }

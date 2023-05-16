@@ -13,6 +13,12 @@
     --bs-navbar-active-color: rgb(0, 150, 64);
     border-bottom: 1px solid rgb(0, 150, 64);
   }
+  .custom-dropdown .dropdown-menu {
+    border-color: rgb(40, 54, 127); /* Modifier la couleur de la ligne ici */
+  }
+  .dropdown-toggle .nav-link {
+    color: rgb(40, 54, 127);
+}
 
   
     

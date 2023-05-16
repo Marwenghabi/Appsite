@@ -4,7 +4,6 @@ import Navbar from '../navbar/Navbar';
 import Footer from "../footer/Footer";
 import './StyleContact.css';
 import ReCAPTCHA from "react-google-recaptcha";
-;
 class SendMail extends Component {
   constructor(props) {
     super(props);
@@ -24,11 +23,11 @@ class SendMail extends Component {
     event.preventDefault();
 
     axios.post('http://localhost:3001/sendmail', this.state.email)
-    ((response) => {
-      console.log(response);
-      // Rediriger vers la page d'accueil après avoir effectué la requête
-      // window.location.href = '/';
-    })
+      .then(response => console.log(response)
+       
+      
+      
+      )
       .catch(error => console.log(error));
   };
 
@@ -102,7 +101,7 @@ class SendMail extends Component {
                       /> */}
                       {/* {errors.recaptcha && <div className="text-danger">{errors.recaptcha}</div>} */}
                     </div>
-                    <button type="submit"  className="btn-send" style={{ paddingTop: '10px' }}>Send</button>
+                    <button type="submit" className="btn-send" style={{ paddingTop: '10px' }}>Send</button>
                     <div style={{ paddingTop: '10px' }}></div>
                   </div>
 
