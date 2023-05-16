@@ -81,8 +81,10 @@ class NavBar extends React.Component {
               <Nav.Link as={Link} to="/Contact" className="navstyle" style={{ color: " rgb(40, 54, 127)" }}>{t('contact')}
               </Nav.Link>
               <Nav.Link href="#" className="navstyle"
-                onClick={this.handleClick} style={{ color: "  rgb(40, 54, 127)" }} >
-                {this.state.text}
+                // onClick={this.handleClick} style={{ color: "  rgb(40, 54, 127)" }} 
+                >
+                {/* {this.state.text} */}
+                EN
               </Nav.Link>
             </Nav>
 
